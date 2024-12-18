@@ -29,3 +29,6 @@ GET /api/users/{id} -> doit retourner un json contenant les informations de l'ut
 3. Créer le point d'entrée de l'API pour ajouter un utilisateur
 
 POST /api/users -> doit ajouter un utilisateur dans la base de données et retourner un json contenant les informations de l'utilisateur ajouté
+
+4. Faire un sorte que le création de l'utilisateur génère un avatar aléatoire
+
