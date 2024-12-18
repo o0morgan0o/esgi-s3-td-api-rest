@@ -2,6 +2,6 @@ services:
   apache:
     build: .
     ports:
-      - "8888:80"
+      - "8080:80"
     volumes:
       - .:/var/www/html
